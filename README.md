@@ -1,4 +1,4 @@
 CoverArtArchive
 ===============
 
-MusicBrainz Cover Art Archive / API in C#
+C# data bindings for the CoverArtArchive.
