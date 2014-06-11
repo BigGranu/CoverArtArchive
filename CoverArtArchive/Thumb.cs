@@ -1,10 +1,11 @@
-﻿using Newtonsoft.Json;
+﻿using System.Runtime.Serialization;
 
 namespace CoverArtArchive
 {
   /// <summary>
   /// Thumbnails
   /// </summary>
+  [DataContract]
   public class Thumb
   {
     public Thumb()
@@ -16,13 +17,13 @@ namespace CoverArtArchive
     /// <summary>
     ///  http://coverartarchive.org/...-500.jpg
     /// </summary>
-    [JsonProperty("large")]
+    [DataMember(Name = "large")]
     public string Large { get; set; }
 
     /// <summary>
     ///  http://coverartarchive.org/...-250.jpg
     /// </summary>
-    [JsonProperty("small")]
+    [DataMember(Name = "small")]
     public string Small { get; set; }
   }
 }

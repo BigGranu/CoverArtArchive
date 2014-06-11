@@ -1,6 +1,8 @@
 ﻿using System;
+using System.IO;
 using System.Net;
-using Newtonsoft.Json;
+using System.Runtime.Serialization.Json;
+using System.Text;
 
 namespace CoverArtArchive.Release_Group
 {
@@ -22,14 +24,26 @@ namespace CoverArtArchive.Release_Group
 
       try
       {
-        string json;
-        using (var w = new WebClient())
+        var request = WebRequest.Create(url);
+        request.Proxy = WebRequest.DefaultWebProxy;
+        request.Credentials = CredentialCache.DefaultCredentials; ;
+        request.Proxy.Credentials = CredentialCache.DefaultCredentials;
+        var response = request.GetResponse();
+        var reader = new StreamReader(response.GetResponseStream());
+
+        string json = reader.ReadToEnd();
+
+        Covers tmp;
+
+        using (var ms = new MemoryStream(Encoding.UTF8.GetBytes(json)))
         {
-          json = w.DownloadString(url);
+          var settings = new DataContractJsonSerializerSettings { UseSimpleDictionaryFormat = true };
+
+          var serializer = new DataContractJsonSerializer(typeof(Covers), settings);
+          tmp = (Covers)serializer.ReadObject(ms);
         }
 
-        var settings = new JsonSerializerSettings() { NullValueHandling = NullValueHandling.Ignore };
-        return JsonConvert.DeserializeObject<Covers>(json, settings);
+        return tmp ?? c;
       }
       catch (Exception)
       {

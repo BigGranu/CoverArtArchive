@@ -1,11 +1,12 @@
 ﻿using System.Collections.Generic;
-using Newtonsoft.Json;
+using System.Runtime.Serialization;
 
 namespace CoverArtArchive
 {
   /// <summary>
   /// a Cover with Details
   /// </summary>
+  [DataContract]
   public class Cover
   {
     public Cover()
@@ -24,55 +25,55 @@ namespace CoverArtArchive
     /// <summary>
     ///  list of zero or more types for the image
     /// </summary>
-    [JsonProperty("types")]
+    [DataMember(Name = "types")]
     public List<string> Types { get; set; }
 
     /// <summary>
     ///  boolean, indicates if this is the "main front"
     /// </summary>
-    [JsonProperty("front")]
+    [DataMember(Name = "front")]
     public bool Front { get; set; }
 
     /// <summary>
     /// boolean, indicates if this is the "main back"
     /// </summary>
-    [JsonProperty("back")]
+    [DataMember(Name = "back")]
     public bool Back { get; set; }
 
     /// <summary>
     /// the edit id on musicbrainz (e.g. 123)
     /// </summary>
-    [JsonProperty("edit")]
-    public int Edit { get; set; }
+    [DataMember(Name = "edit")]
+    public int? Edit { get; set; }
 
     /// <summary>
     /// the full coverartarchive.org url to the original image
     /// </summary>
-    [JsonProperty("image")]
+    [DataMember(Name = "image")]
     public string Image { get; set; }
 
     /// <summary>
     /// a free text comment
     /// </summary>
-    [JsonProperty("comment")]
+    [DataMember(Name = "comment")]
     public string Comment { get; set; }
 
     /// <summary>
     /// whether the image was approved by the musicbrainz edit system
     /// </summary>
-    [JsonProperty("approved")]
+    [DataMember(Name = "approved")]
     public bool Approved { get; set; }
 
     /// <summary>
     /// The CoverArtArchive ID
     /// </summary>
-    [JsonProperty("id")]
+    [DataMember(Name = "id")]
     public string Id { get; set; }
 
     /// <summary>
     /// a List of Thumbs
     /// </summary>
-    [JsonProperty("thumbnails")]
+    [DataMember(Name = "thumbnails")]
     public Thumb Thumbnails { get; set; }
   }
 }

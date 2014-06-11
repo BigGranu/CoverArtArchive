@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using Newtonsoft.Json;
+using System.Runtime.Serialization;
 
 namespace CoverArtArchive
 {
   /// <summary>
   /// All Covers 
   /// </summary>
+  [DataContract]
   public class Covers
   {
     public Covers()
@@ -18,13 +19,13 @@ namespace CoverArtArchive
     /// <summary>
     /// a List of Covers
     /// </summary>
-    [JsonProperty("images")]
+    [DataMember(Name = "images")]
     public List<Cover> Images { get; set; }
 
     /// <summary>
     /// the MusicBrainz release
     /// </summary>
-    [JsonProperty("release")]
+    [DataMember(Name = "release")]
     public string Release { get; set; }
   }
 }
