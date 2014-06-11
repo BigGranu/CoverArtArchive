@@ -1,7 +1,7 @@
 CoverArtArchive
 ===============
 
-C# data bindings for the CoverArtArchive.
+.Net data bindings for [CoverArtArchive](http://coverartarchive.org/)
 
 Example:
 
