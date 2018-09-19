@@ -12,6 +12,7 @@
 		<Company>BigGranu</Company>
 		<Authors>BigGranu</Authors>
 		<Product>BigGranu.CoverArtArchive</Product>
+		<PackageIconUrl>https://github.com/BigGranu/CoverArtArchive/blob/dev/BigGranu.png</PackageIconUrl>
 	</PropertyGroup>
 
 	<!-- Net Standard -->
