@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="c544171c-6049-430e-aba2-5b84c5ff6ae0" Title="BigGranu.CoverArtArchive" Url="html/fb6bd85d-adbf-5179-4b0c-03ae093c891f.htm">
+    <HelpTOCNode Id="a9438db8-8944-4a58-8388-fc198c26caca" Title="ApiStatus Class" Url="html/5d8599b2-da71-685b-e3f4-83f9339da949.htm">
+      <HelpTOCNode Id="d3c6d8a2-442c-4859-b00b-f8b9d8609d58" Title="ApiStatus Constructor " Url="html/46b933c9-728a-b0a7-08fd-a763da7a677f.htm">
+        <HelpTOCNode Title="ApiStatus Constructor " Url="html/acaf52d7-53fc-4f44-dbfd-ced3cc5a1cf9.htm" />
+        <HelpTOCNode Title="ApiStatus Constructor (String, String, String)" Url="html/ed48e2af-5033-b123-d983-01da5fadfd6a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="159c4904-a083-444b-9789-392b64a82f25" Title="ApiStatus Properties" Url="html/ae3521d4-bd62-326a-8151-47f56a6f6505.htm">
+        <HelpTOCNode Title="Class Property " Url="html/403d58d2-5c50-6ffc-2241-034982c68894.htm" />
+        <HelpTOCNode Title="DateOfEntry Property " Url="html/41bc00ca-1dfb-c0e8-1e44-d4bebd54d63f.htm" />
+        <HelpTOCNode Title="ErrorMessage Property " Url="html/65a4274b-c9cd-eead-bc47-dc2c03f6b12d.htm" />
+        <HelpTOCNode Title="ErrorOccurred Property " Url="html/cb5ca2ac-5da0-05ab-6f5c-c52f97a29bb5.htm" />
+        <HelpTOCNode Title="Function Property " Url="html/1b77e9e1-1f83-46ec-a76a-03e19d996ca3.htm" />
+        <HelpTOCNode Title="Namespace Property " Url="html/8196d886-0df1-495e-e542-1f8561196d2a.htm" />
+        <HelpTOCNode Title="Response Property " Url="html/14a57058-99de-df50-926a-8981d6cc6598.htm" />
+        <HelpTOCNode Title="ResponseCode Property " Url="html/f76aade1-e2da-47f9-a308-61fdbdc215e4.htm" />
+        <HelpTOCNode Title="Url Property " Url="html/4a81d516-fbd2-1999-59f2-80a4e5cda48d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="93935014-4a4e-4492-bb90-c8de1c510e14" Title="ApiStatus Methods" Url="html/4365bf7b-9fbc-4a2a-c5d7-ed01c59b1425.htm">
+        <HelpTOCNode Title="ToString Method " Url="html/dc5e4a58-2e82-25c3-59bb-5d33c4ba46e6.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="58df7665-3b75-4833-983a-c5d88d3cc4c9" Title="Search Class" Url="html/b47c82c8-a44b-c1b5-dfee-128f04bd7023.htm">
+      <HelpTOCNode Title="Search Constructor " Url="html/5df857d3-d96d-3d68-5c96-07698b0bee80.htm" />
+      <HelpTOCNode Id="7eebf72c-e36b-4f46-aca5-ec30313c7c48" Title="Search Methods" Url="html/aa4632d0-3854-cfb7-1c0b-6be147169f29.htm">
+        <HelpTOCNode Title="Release Method " Url="html/db60e731-d44a-29e3-b767-db71e7c9f004.htm" />
+        <HelpTOCNode Title="ReleaseGroup Method " Url="html/d9fc2444-8098-ddec-2028-e07f6f1e7d3d.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="Search.Size Enumeration" Url="html/1d891664-afee-5c42-f7e1-46552ff0bc84.htm" />
+    <HelpTOCNode Title="Search.Typ Enumeration" Url="html/e0a79382-b75c-7b87-a2be-f80247bc377a.htm" />
+    <HelpTOCNode Id="1487fa49-ab65-4c57-aa39-81b08e02c829" Title="Settings Class" Url="html/9091d4d9-d4f7-1f2f-4655-0464c6d83285.htm">
+      <HelpTOCNode Title="Settings Constructor " Url="html/e00b1ad8-ca43-1535-9e93-6bb6d2277518.htm" />
+      <HelpTOCNode Title="Settings Methods" Url="html/4c6045d5-ac80-183e-ad39-4567b4c23b0e.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b4b39e30-8d98-4cc9-946d-eb434dc3a48c" Title="Settings.Http Class" Url="html/4d93bc16-2150-8481-b37e-3e52a61651cf.htm">
+      <HelpTOCNode Title="Settings.Http Constructor " Url="html/a4371e3e-fd96-6094-987d-3c963f54a85f.htm" />
+      <HelpTOCNode Id="2af8dbc3-a0f7-45dd-81c7-3e13990e8bd0" Title="Http Properties" Url="html/fa91cbf5-48d3-de54-f7ab-6c2b3853a8d5.htm">
+        <HelpTOCNode Title="Timeout Property " Url="html/0f7e8602-ec93-043a-ffbc-611d67462e1c.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Http Methods" Url="html/1d3a56c8-18bd-d297-e917-4384c99f38a1.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="e532aec0-1328-4e1f-8b51-fe1a1b3e8028" Title="BigGranu.CoverArtArchive.Data" Url="html/341b88d0-d56a-11d7-1c2f-6a84f5d60973.htm">
+    <HelpTOCNode Id="158aca08-4b3b-4005-89f2-a9cf10497de1" Title="Cover Class" Url="html/e45755e1-0b6e-eb84-4f70-79b955c8b1cb.htm">
+      <HelpTOCNode Title="Cover Constructor " Url="html/418cf60e-1a98-8f81-2a86-80bb3672f6b0.htm" />
+      <HelpTOCNode Id="ae239c33-59eb-499d-9c7b-6fc383340244" Title="Cover Properties" Url="html/2cbfa332-7472-47a2-458d-621bf97b7444.htm">
+        <HelpTOCNode Title="ApiStatus Property " Url="html/9a5ecb0c-2170-91d0-1ce8-34452807a786.htm" />
+        <HelpTOCNode Title="Images Property " Url="html/327daedb-896a-d1a3-3e9f-504a74278341.htm" />
+        <HelpTOCNode Title="MusicBrainzRelease Property " Url="html/c12f931a-2990-d883-443c-6f19cdfa9903.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Cover Methods" Url="html/07c1d447-3001-4bc5-8c3b-cf9b0373924e.htm" />
+      <HelpTOCNode Id="8567cdcc-aea8-4185-bcca-ff63dd399a0e" Title="Cover Fields" Url="html/cbf7d925-fee1-708f-2f77-e88b5deac5a8.htm">
+        <HelpTOCNode Title="Selected Field" Url="html/24593d6b-9c41-41db-f489-d95bb19b674f.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f8837cd0-b733-4bfd-bb78-fd74fb2fb01b" Title="Image Class" Url="html/6c679515-dbab-0e66-a36f-751c29a16db8.htm">
+      <HelpTOCNode Title="Image Constructor " Url="html/acf7d538-0aa9-5e75-206b-090ae1173561.htm" />
+      <HelpTOCNode Id="058f1c61-f472-4817-b11e-5d4fa6125948" Title="Image Properties" Url="html/b20684da-3b06-a6b9-8917-59d3905fc044.htm">
+        <HelpTOCNode Title="Approved Property " Url="html/5787e6f1-2dd4-439a-f6f4-36ef9d57d036.htm" />
+        <HelpTOCNode Title="Back Property " Url="html/a7052f77-313f-c09d-074e-86f0b32afa4c.htm" />
+        <HelpTOCNode Title="Comment Property " Url="html/edc09f28-9c7e-cc84-8068-87ec11c5ebaa.htm" />
+        <HelpTOCNode Title="Edit Property " Url="html/c9290580-4882-9888-ec69-4c99baaca420.htm" />
+        <HelpTOCNode Title="Front Property " Url="html/dacca12f-35f8-5270-c193-047b15d1976f.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/d454d449-c9df-d265-6311-186d6e9e86aa.htm" />
+        <HelpTOCNode Title="Thumbnails Property " Url="html/3b5dd5d3-31e0-79a7-3bd4-d6e11543b534.htm" />
+        <HelpTOCNode Title="Types Property " Url="html/39b9cb23-e136-17a6-9c31-30f5eb8c978f.htm" />
+        <HelpTOCNode Title="Uri Property " Url="html/52b22bff-046d-20af-9bcc-c1c1c1a47c13.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Image Methods" Url="html/6e3e0e99-3fb2-c847-9c46-c3b2f5db5219.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d090ad63-d346-4b8f-8427-13399235c7a9" Title="Thumb Class" Url="html/9bbdcbfa-27bc-c956-f6c8-0bfc7f149f98.htm">
+      <HelpTOCNode Title="Thumb Constructor " Url="html/60485d1c-e20d-3ea9-470d-499d24e0abf3.htm" />
+      <HelpTOCNode Id="e43369db-7e60-4142-9860-6e5c6088be76" Title="Thumb Properties" Url="html/888bd38d-fecf-3eba-cf20-badaf7439f36.htm">
+        <HelpTOCNode Title="Large Property " Url="html/309db193-fe79-e7be-29f7-bf381d03d36d.htm" />
+        <HelpTOCNode Title="Small Property " Url="html/a3c21b64-fe60-0f7c-a39c-c0ef651abc25.htm" />
+        <HelpTOCNode Title="The1200 Property " Url="html/1755fb05-62c6-7707-dd38-414956441e74.htm" />
+        <HelpTOCNode Title="The250 Property " Url="html/cbfefde6-6442-5b24-fc67-15f9ca08908f.htm" />
+        <HelpTOCNode Title="The500 Property " Url="html/373a3182-3e82-2c0e-3e91-84f873db2e2b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Thumb Methods" Url="html/aa8763d6-70ea-d08a-7957-b5ef892b383d.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="6b2ca31e-b59b-44a2-993e-7a056aef8e73" Title="BigGranu.CoverArtArchive.Events" Url="html/d0eb013d-b4dd-18c5-82bd-0065e61abb20.htm">
+    <HelpTOCNode Id="d128994f-3e83-454a-a800-62cc6778825a" Title="Exceptions Class" Url="html/2e35f8db-9074-9c54-3e21-5de28f67982e.htm">
+      <HelpTOCNode Title="Exceptions Constructor " Url="html/28b6aae1-58c7-53eb-6151-6bab5821c5f9.htm" />
+      <HelpTOCNode Id="7e86ce05-3f31-4fc3-8946-ae7e048ec253" Title="Exceptions Properties" Url="html/280295ce-85c4-3890-8709-0d9bfcfeab56.htm">
+        <HelpTOCNode Title="Instance Property " Url="html/614ad3c2-92ca-4b95-2ab7-5589020eec72.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Exceptions Methods" Url="html/3f142ced-ba56-8f2a-5c0e-89eee5db9072.htm" />
+      <HelpTOCNode Id="8de61484-cb4b-4996-baac-4a1b3d5d9e0b" Title="Exceptions Events" Url="html/25c89942-d8c7-ab1e-d7a7-6e1f19c1ad4b.htm">
+        <HelpTOCNode Title="ExceptionTriggered Event" Url="html/08c55057-2351-339f-d240-255e1a099257.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="Exceptions.EventHandler Delegate" Url="html/d46bca25-65c6-aef8-f63b-9f82d444138d.htm" />
+    <HelpTOCNode Id="17fd3a78-5aac-4540-9f2a-18e518949d05" Title="ExceptionsArgs Class" Url="html/f05deb20-f4e1-fc3c-4636-0b1eda3770c8.htm">
+      <HelpTOCNode Title="ExceptionsArgs Constructor " Url="html/a4ff3c32-2d2b-3206-a6d5-4adebd9d0f54.htm" />
+      <HelpTOCNode Id="dd00455e-4f67-4545-a27f-55fc15d43467" Title="ExceptionsArgs Properties" Url="html/ebe9dcec-419a-ec6a-cb3f-3c44fb9cb8be.htm">
+        <HelpTOCNode Title="Exception Property " Url="html/2dc1b7ba-d8c3-830e-8500-7bc3bccfc0d8.htm" />
+        <HelpTOCNode Title="Message Property " Url="html/13dd4f55-e64f-d9d0-9d66-83a49403c453.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ExceptionsArgs Methods" Url="html/fda6f9a8-3f62-e1ec-423d-05b9a848c87f.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="96d006d8-0f3b-4ee5-a310-a9180d231c8d" Title="Logging Class" Url="html/834b8170-fad2-2d22-ebe7-b46b0dfb0fd8.htm">
+      <HelpTOCNode Title="Logging Constructor " Url="html/cdf9c665-31b3-7d0b-c182-cc6e2f00ed47.htm" />
+      <HelpTOCNode Id="b5e67995-884e-4782-aacc-9d83ddd0ea2c" Title="Logging Properties" Url="html/3df1a23f-607d-b3bb-a192-12da9c59a9e9.htm">
+        <HelpTOCNode Title="Instance Property " Url="html/d41d0fd6-b772-ba24-499a-194f0e8115a4.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Logging Methods" Url="html/fa649fce-2ee7-2c09-7e78-7abd91faff4e.htm" />
+      <HelpTOCNode Id="108e1f8c-64ad-4bbb-b16f-3307692fadb6" Title="Logging Events" Url="html/29643792-23ff-c0e0-b17c-519b6b6a4634.htm">
+        <HelpTOCNode Title="LogEntryTriggered Event" Url="html/ba31a84b-8280-3388-b557-f99ac0bb79fc.htm" />
+        <HelpTOCNode Title="StatusTriggered Event" Url="html/e477a1ed-44a8-9dfe-17e3-d4786127a56c.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="Logging.CallArgs Delegate" Url="html/0c828d63-01b1-264b-5aef-d53900eed541.htm" />
+    <HelpTOCNode Title="Logging.CallStatus Delegate" Url="html/f59ff7e0-141c-5154-a464-1c8e6663fc26.htm" />
+    <HelpTOCNode Id="afa8b963-6bbe-45e7-84c1-9eac8990b860" Title="LoggingArgs Class" Url="html/7f4f64e7-dff8-8644-52e2-a9273c12aa64.htm">
+      <HelpTOCNode Id="c3926f4b-2928-4175-9cb2-89c6eaea4663" Title="LoggingArgs Constructor " Url="html/e0a66c58-9e3a-4313-12a7-5512b45509c7.htm">
+        <HelpTOCNode Title="LoggingArgs Constructor (String, String, String)" Url="html/b8c025fd-5a8b-1e3b-97ef-cc92f42acbeb.htm" />
+        <HelpTOCNode Title="LoggingArgs Constructor (String, String, String, Para)" Url="html/0cc22847-6d81-36f7-da30-671ef26b4c48.htm" />
+        <HelpTOCNode Title="LoggingArgs Constructor (String, String, String, List(Para))" Url="html/d69b05d5-3f51-3512-6fcb-41c547c98715.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4ef9c276-02fe-4def-b603-0d8e293d3ab3" Title="LoggingArgs Properties" Url="html/572cf0b2-e7d9-0ad5-6b33-867f96e74785.htm">
+        <HelpTOCNode Title="Class Property " Url="html/9fe3b901-25a4-f3ce-2891-a1c4e591a844.htm" />
+        <HelpTOCNode Title="DateOfEntry Property " Url="html/8c2f7ec3-c362-1256-c009-487c73634f24.htm" />
+        <HelpTOCNode Title="Function Property " Url="html/0dd65d86-d372-4321-c628-ac9b28ff8cf5.htm" />
+        <HelpTOCNode Title="Namespace Property " Url="html/b9fbabd7-d5f6-7a67-b2cb-86d51e76b98e.htm" />
+        <HelpTOCNode Title="Parameters Property " Url="html/ca3893bc-4cd4-84e6-d6aa-e601b6cad924.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f4f938d4-77e3-43e8-8e04-2bf4afac9b7d" Title="LoggingArgs Methods" Url="html/4b19c0c3-142d-fb22-b5ad-a67377363b76.htm">
+        <HelpTOCNode Title="ToString Method " Url="html/f707ff7c-5e0a-c3b3-5301-0609d4197cde.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="323a30b3-e7ad-4ff4-a832-e14fd065f0b5" Title="Para Class" Url="html/08403a78-68a9-1472-2262-7ddb19961b99.htm">
+      <HelpTOCNode Title="Para Constructor " Url="html/96562068-814d-e861-746a-00568e2e79ae.htm" />
+      <HelpTOCNode Id="15bccbe7-ea5e-4332-b131-26edbdc9fbeb" Title="Para Properties" Url="html/9e532fd0-33cf-c4ce-9d8c-5838fae78992.htm">
+        <HelpTOCNode Title="Name Property " Url="html/7d041bf6-42fc-ad2d-ca61-398f431467b7.htm" />
+        <HelpTOCNode Title="Value Property " Url="html/20129f6a-bad0-e815-c226-8dcdca4c89de.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Para Methods" Url="html/4c36b8d8-5183-0adf-7dae-9a3835796595.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

@@ -1,0 +1,119 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>
+			netstandard1.4;netstandard1.5;netstandard1.6;netstandard2.0;
+			netcoreapp1.0;netcoreapp1.1;netcoreapp2.0;
+			net45;net46;net47
+		</TargetFrameworks>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<SignAssembly>true</SignAssembly>
+		<AssemblyOriginatorKeyFile>BigGranu.CoverArtArchive.snk</AssemblyOriginatorKeyFile>
+		<Company>BigGranu</Company>
+		<Authors>BigGranu</Authors>
+		<Product>BigGranu.CoverArtArchive</Product>
+	</PropertyGroup>
+
+	<!-- Net Standard -->
+	<PropertyGroup Condition="'$(TargetFramework)' == 'netstandard1.4'">
+		<DocumentationFile>bin\Debug\netstandard1.4\$(Product).xml</DocumentationFile>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(TargetFramework)' == 'netstandard1.5'">
+		<DocumentationFile>bin\Debug\netstandard1.5\$(Product).xml</DocumentationFile>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(TargetFramework)' == 'netstandard1.6'">
+		<DocumentationFile>bin\Debug\netstandard1.6\$(Product).xml</DocumentationFile>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+		<DocumentationFile>bin\Debug\netstandard2.0\$(Product).xml</DocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.4'">
+		<PackageReference Include="System.Runtime.Serialization.Json" Version="4.3.0" />
+		<PackageReference Include="System.Runtime.Serialization.Primitives" Version="4.3.0" />
+	</ItemGroup>
+	<ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.5'">
+		<PackageReference Include="System.Runtime.Serialization.Json" Version="4.3.0" />
+		<PackageReference Include="System.Runtime.Serialization.Primitives" Version="4.3.0" />
+	</ItemGroup>
+	<ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.6'">
+		<PackageReference Include="System.Runtime.Serialization.Json" Version="4.3.0" />
+		<PackageReference Include="System.Runtime.Serialization.Primitives" Version="4.3.0" />
+	</ItemGroup>
+	<ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+		<PackageReference Include="System.Runtime.Serialization.Json" Version="4.3.0" />
+		<PackageReference Include="System.Runtime.Serialization.Primitives" Version="4.3.0" />
+	</ItemGroup>
+
+	<!-- Net Core -->
+	<PropertyGroup Condition="'$(TargetFramework)' == 'netcoreapp1.0'">
+		<DocumentationFile>bin\Debug\netcoreapp1.0\$(Product).xml</DocumentationFile>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(TargetFramework)' == 'netcoreapp1.1'">
+		<DocumentationFile>bin\Debug\netcoreapp1.1\$(Product).xml</DocumentationFile>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(TargetFramework)' == 'netcoreapp2.0'">
+		<DocumentationFile>bin\Debug\netcoreapp2.0\$(Product).xml</DocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup Condition="'$(TargetFramework)' == 'netcoreapp1.0'">
+		<PackageReference Include="System.Runtime.Serialization.Json" Version="4.3.0" />
+		<PackageReference Include="System.Runtime.Serialization.Primitives" Version="4.3.0" />
+	</ItemGroup>
+	<ItemGroup Condition="'$(TargetFramework)' == 'netcoreapp1.1'">
+		<PackageReference Include="System.Runtime.Serialization.Json" Version="4.3.0" />
+		<PackageReference Include="System.Runtime.Serialization.Primitives" Version="4.3.0" />
+	</ItemGroup>
+	<ItemGroup Condition="'$(TargetFramework)' == 'netcoreapp2.0'">
+		<PackageReference Include="System.Runtime.Serialization.Json" Version="4.3.0" />
+		<PackageReference Include="System.Runtime.Serialization.Primitives" Version="4.3.0" />
+	</ItemGroup>
+
+	<!-- Net -->
+	<ItemGroup Condition="'$(TargetFramework)' == 'net45' OR '$(TargetFramework)' == 'net46' OR '$(TargetFramework)' == 'net47'">
+		<Reference Include="System.Net.Http" />
+	</ItemGroup>
+
+	<PropertyGroup Condition="'$(TargetFramework)' == 'net20'">
+		<DefineConstants>WEB_REQUEST</DefineConstants>
+		<DocumentationFile>bin\Debug\net20\$(Product).xml</DocumentationFile>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(TargetFramework)' == 'net35'">
+		<DefineConstants>WEB_REQUEST</DefineConstants>
+		<DocumentationFile>bin\Debug\net35\$(Product).xml</DocumentationFile>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(TargetFramework)' == 'net40'">
+		<DefineConstants>WEB_REQUEST</DefineConstants>
+		<DocumentationFile>bin\Debug\net40\$(Product).xml</DocumentationFile>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(TargetFramework)' == 'net45'">
+		<DocumentationFile>bin\Debug\net45\$(Product).xml</DocumentationFile>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(TargetFramework)' == 'net46'">
+		<DocumentationFile>bin\Debug\net46\$(Product).xml</DocumentationFile>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(TargetFramework)' == 'net47'">
+		<DocumentationFile>bin\Debug\net47\$(Product).xml</DocumentationFile>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard1.4|AnyCPU'">
+	  <DefineConstants>TRACE</DefineConstants>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="BigGranu.CoverArtArchive.snk" />
+	  <None Remove="Documentation\Documentation.chm" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="Documentation\Documentation.chm">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	</ItemGroup>
+	<ItemGroup>
+	  <Content Include="BigGranu.CoverArtArchive.snk">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	</ItemGroup>
+
+</Project>
