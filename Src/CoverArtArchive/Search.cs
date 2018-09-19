@@ -26,6 +26,7 @@ using CoverArtArchive.Data;
 using CoverArtArchive.Events;
 using CoverArtArchive.Helper;
 
+
 namespace CoverArtArchive
 {
     /// <summary>
@@ -107,6 +108,7 @@ namespace CoverArtArchive
         {
             Logging.NewLogEntry(new LoggingArgs(ns, cl, "Release", new Para("mbid", mbid)));
 
+            
             var ret = new Cover();
 
             try
